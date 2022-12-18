@@ -16,9 +16,10 @@ const countTime  = function(){
         }
     else {
         alert('No much time')
+        clearInterval(date)
     }
     }
     
 
 
-setInterval(countTime,1000);
+date = setInterval(countTime,1000);
